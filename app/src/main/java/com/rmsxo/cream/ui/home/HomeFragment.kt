@@ -70,35 +70,4 @@ class HomeFragment : Fragment() {
             })
         }
     }
-
-    /*override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-
-        var down = false
-        var height: Float? = null
-        val bottomNavView = requireActivity().findViewById<BottomNavigationView>(R.id.nav_view)
-
-        binding.RecyclerViewId.addOnScrollListener(object : RecyclerView.OnScrollListener() {
-            override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
-                super.onScrolled(recyclerView, dx, dy)
-
-                if (height == null) {
-                    height = bottomNavView.height.toFloat()
-                }
-                if (dy > 0) {
-                    if (down) {
-                        down = false
-                        bottomNavView.clearAnimation()
-                        bottomNavView.animate().translationY(height!!).duration = 200
-                    }
-                } else {
-                    if (!down) {
-                        down = true
-                        bottomNavView.clearAnimation()
-                        bottomNavView.animate().translationY(0f).duration = 200
-                    }
-                }
-            }
-        })
-    }*/
 }
