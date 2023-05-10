@@ -13,6 +13,7 @@ https://velog.io/@rmsxo5678/BottomNavigationView
 
 |스크롤 시 나타나고 사라짐|
 |------|
-|![untitled](https://github.com/GEUN-TAE-KIM/BottomNavigation_disappearOnScroll_Sample/assets/80413888/9e37064c-1f10-4326-87b4-81d96cc597fd)|
+|![untitled 1 54 56](https://github.com/GEUN-TAE-KIM/BottomNavigation_disappearOnScroll_Sample/assets/80413888/940d743c-b2cf-46ed-a6de-faf1911c95e9)|
+
 
 
